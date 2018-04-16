@@ -1,12 +1,12 @@
 {
-  "name": "lambda-apigateway-postgres",
+  "name": "instabot",
   "version": "1.0.0",
-  "description": "node postgres api",
+  "description": "node instagram api",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": " --zip-file fileb://Lambda-Deployment.zip",
-    "predeploy": "zip -r Lambda-Deployment.zip * -x *.zip *.log"
+    "deploy": " --zip-file fileb://Instabot-Deployment.zip",
+    "predeploy": "zip -r Instabot-Deployment.zip * -x *.zip *.log"
   },
   "keywords": [
     "postgres"
