@@ -1,0 +1,19 @@
+{
+  "name": "lambda-apigateway-postgres",
+  "version": "1.0.0",
+  "description": "node postgres api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": " --zip-file fileb://Lambda-Deployment.zip",
+    "predeploy": "zip -r Lambda-Deployment.zip * -x *.zip *.log"
+  },
+  "keywords": [
+    "postgres"
+  ],
+  "author": "Rafael Siqueira",
+  "license": "ISC",
+  "dependencies": {
+    "pg": "^6.1.2"
+  }
+}
