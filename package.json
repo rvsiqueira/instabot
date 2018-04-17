@@ -14,6 +14,10 @@
   "author": "Rafael Siqueira",
   "license": "ISC",
   "dependencies": {
-    "pg": "^6.1.2"
-  }
+    "async": "^2.0.1",
+    "aws-sdk": "^2.5.3",
+    "instagram-node": "^0.5.8",
+    "mongodb": "^2.2.5"
+  },
+  "devDependencies": {}
 }
